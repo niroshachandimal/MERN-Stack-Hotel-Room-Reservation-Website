@@ -1,0 +1,165 @@
+#admin-room-page {
+     .room-wrapper {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    padding-bottom: 2rem;
+    border-radius: 8px;
+    background: #fff;}
+  .container {
+    padding-top: 2rem;
+  }
+
+  .room-title {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+  }
+
+  .img-wrapper {
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .room-details {
+    text-align: center;
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      color: #444;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin: 0.5rem 0;
+    }
+
+    .old-price {
+      color: #c0392b;
+    }
+
+    .discount-price {
+      color: #27ae60;
+    }
+  }
+
+  .admin-actions {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+    .edit-btn,
+    .delete-btn {
+      display: inline-block;
+      padding: 0.8rem 1.6rem;
+      font-size: 1rem;
+      font-weight: 500;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin: 0 0.5rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .edit-btn {
+      background-color: rgb(53, 53, 53);
+
+      &:hover {
+        background-color: black;
+      }
+    }
+
+    .delete-btn {
+      background-color: #e74c3c;
+
+      &:hover {
+        background-color: #c0392b;
+      }
+    }
+  }
+
+  .review-section {
+    margin-top: 3rem;
+    max-width: 600px;
+    margin-inline: auto;
+
+    h2 {
+      text-align: center;
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+
+    .review {
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+      position: relative;
+
+      strong {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: #444;
+      }
+
+      p {
+        font-size: 1rem;
+        color: #555;
+        margin: 0;
+      }
+
+      .delete-review-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: #e74c3c;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 0.3rem 0.7rem;
+        font-size: 0.85rem;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+
+        &:hover {
+          background-color: #c0392b;
+        }
+      }
+    }
+  }
+
+  // Responsive
+  @media (max-width: 768px) {
+    .room-title {
+      font-size: 1.7rem;
+    }
+
+    .img-wrapper {
+      height: 45vh;
+    }
+
+    .room-details p,
+    .room-details h2 {
+      font-size: 1rem;
+    }
+
+    .admin-actions {
+      flex-direction: column;
+
+      .edit-btn,
+      .delete-btn {
+        width: 100%;
+        margin: 0.5rem 0;
+      }
+    }
+  }
+}
