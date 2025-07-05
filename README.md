@@ -7,7 +7,7 @@ A full-stack hotel room reservation system built with the MERN stack. This proje
 ## 🚀 Features
 
 - Customer-facing frontend to browse and book rooms
-- Admin dashboard for managing rooms, bookings and room details
+- Admin dashboard for managing bookings
 - Authentication with JWT
 - MongoDB database integration
 - Email notification setup
@@ -103,7 +103,7 @@ npm run dev-client
 #### Client Dashboard  
 ![Client Dashboard](./screenshots/Client_Dashboard.jpeg)
 
-#### Account Management  
+#### Client Account Management  
 ![Client Account Manage](./screenshots/Client_Account_Manage_Page.jpeg)
 
 ---
@@ -122,7 +122,7 @@ npm run dev-client
 #### Create New Room  
 ![Admin Create Room](./screenshots/Admin_Create_Room.jpeg)
 
-#### Manage Rooms  
+#### Manage Room  
 ![Admin Room](./screenshots/Admin_Room.jpeg)
 
 #### Edit Room  
