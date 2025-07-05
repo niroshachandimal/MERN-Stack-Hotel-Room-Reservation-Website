@@ -80,20 +80,57 @@ npm run dev-client
 ```
 ## 🌐 Project Interfaces
 
-### 🔒 Admin Side
-
-![Admin Register](./screenshots/Admin Register.jpeg)
-![Admin Login](./screenshots/Admin Login.jpeg)
-![Admin Dashboard](./screenshots/Admin Dashboard.jpeg)
-![Admin Create Room](./screenshots/Admin Create Room.jpeg)
-![Admin Room](./screenshots/Admin Room.jpeg)
-![Admin Edit Room](./screenshots/Admin Edit Room.jpeg)
-![Admin Account Manage](./screenshots/Admin Account Manage.jpeg)
-
 ### 👤 Client Side
 
-![Client Home](./screenshots/client_home.png)
-![Booking Page](./screenshots/client_booking.png)
+#### Home Page  
+![Home_Page](./screenshots/Home_Page.png)
+
+#### Client Login  
+![Client Login](./screenshots/Client_Login.jpeg)
+
+#### Client Register  
+![Client Register](./screenshots/Client_Register.jpeg)
+
+#### Room List View  
+![Room List](./screenshots/Room_List.jpeg)
+
+#### Room Detail Page  
+![Client Room](./screenshots/Client_Room.jpeg)
+
+#### Booking Page  
+![Client Booking](./screenshots/Client_Booking_Page.jpeg)
+
+#### Client Dashboard  
+![Client Dashboard](./screenshots/Client_Dashboard.jpeg)
+
+#### Account Management  
+![Client Account Manage](./screenshots/Client_Account_Manage_Page.jpeg)
+
+---
+
+### 🔒 Admin Side
+
+#### Admin Register  
+![Admin Register](./screenshots/Admin_Register.jpeg)
+
+#### Admin Login  
+![Admin Login](./screenshots/Admin_Login.jpeg)
+
+#### Admin Dashboard  
+![Admin Dashboard](./screenshots/Admin_Dashboard.jpeg)
+
+#### Create New Room  
+![Admin Create Room](./screenshots/Admin_Create_Room.jpeg)
+
+#### Manage Rooms  
+![Admin Room](./screenshots/Admin_Room.jpeg)
+
+#### Edit Room  
+![Admin Edit Room](./screenshots/Admin_Edit_Room.jpeg)
+
+#### Admin Account Management  
+![Admin Account Manage](./screenshots/Admin_Account_Manage.jpeg)
+
 
 ---
 
